@@ -2,6 +2,7 @@
 
 /* global __resourceQuery WorkerGlobalScope self */
 /* eslint prefer-destructuring: off */
+require('./polyfill');
 const querystring = require('querystring');
 const url = require('url');
 const stripAnsi = require('strip-ansi');
